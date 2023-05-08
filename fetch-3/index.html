@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        label{
+            display: block;
+        }
+        input{
+            display: block;
+        }
+        span{
+            display: block;
+        }
+    </style>
+
+    <form id="buscaCep" >
+        <label for="cep">CEP</label>
+        <input type="text" name="cep" id="cep">
+        <input type="button" value="Buscar Cep" id="btnCep">
+       </form>
+       <div class="resultadoCep">
+       </div>
+       <div>
+       <h2>preço BTC</h2>
+       <p class="btc"></p>
+    </div>
+
+    <div>
+        <h2>Piadas do chuck norris</h2>
+        <span class="piadas"></span>
+        <button class="proxima">Proxima</button>
+    </div>
+
+    <div>
+        <form id="buscaFilmes" >
+            <label for="filmes">FILMES</label>
+            <input type="text" name="filmes" id="filmes">
+            <input type="button" value="Buscar Filmes" id="btnfilmes">
+           </form>
+           <div class="resultadofilmes">
+           </div>
+    </div>
+
+       <script src="./scriptt.js"></script>
+</body>
+</html>
